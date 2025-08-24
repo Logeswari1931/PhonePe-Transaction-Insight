@@ -47,19 +47,7 @@ This project provides real-time insights into transactions, user behavior, insur
    cd phonepe-dashboard
    ```
 
-2. **Create a virtual environment & activate it**  
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # (Linux/Mac)
-   .venv\Scripts\activate      # (Windows)
-   ```
-
-3. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Example `requirements.txt`:  
+2. **Install dependencies**  
    ```
    streamlit
    pandas
@@ -68,7 +56,7 @@ This project provides real-time insights into transactions, user behavior, insur
    SQLAlchemy
    ```
 
-4. **Setup MySQL Database**  
+3. **Setup MySQL Database**  
    - Create a database `Project_1`  
    - Import PhonePe Pulse data into tables:  
      - `aggregated_transaction`, `aggregated_user`, `aggregated_insurance`  
@@ -80,21 +68,14 @@ This project provides real-time insights into transactions, user behavior, insur
    engine = create_engine("mysql+mysqlconnector://root:12345@localhost:3306/Project_1")
    ```
 
-5. **Run the Streamlit App**  
+4. **Run the Streamlit App**  
    ```bash
    streamlit run improved-phonepe-layout.py
    ```
 
-6. Open your browser at `http://localhost:8501`
+5. Open your browser at `http://localhost:8501`
 
 ---
-
-## 📸 Screenshots  
-
-### Dashboard View  
-- Real-time KPIs  
-- Geographic heatmaps  
-- Transaction growth trends  
 
 ### Case Studies  
 - Transaction Dynamics  
