@@ -30,7 +30,7 @@ This project provides real-time insights into transactions, user behavior, insur
 
 ```
 📁 PhonePe-Dashboard
-│── 📄 Main_Streamlit.py   # Main Streamlit dashboard app
+│── 📄 Main_Streamlit.py            # Main Streamlit dashboard app
 │── 📄 app_log.ipynb                # Log notebook for analysis/testing
 │── 📄 pysql.ipynb                  # SQL queries and DB integration
 │── 📄 README.md                    # Project documentation
