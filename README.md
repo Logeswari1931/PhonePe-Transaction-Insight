@@ -30,10 +30,9 @@ This project provides real-time insights into transactions, user behavior, insur
 
 ```
 📁 PhonePe-Dashboard
-│── 📄 improved-phonepe-layout.py   # Main Streamlit dashboard app
+│── 📄 Main_Streamlit.py   # Main Streamlit dashboard app
 │── 📄 app_log.ipynb                # Log notebook for analysis/testing
 │── 📄 pysql.ipynb                  # SQL queries and DB integration
-│── 📄 Indian_states_fixed.geojson  # Geospatial data for maps
 │── 📄 README.md                    # Project documentation
 ```
 
@@ -63,14 +62,14 @@ This project provides real-time insights into transactions, user behavior, insur
      - `map_transaction`, `map_user`, `map_insurance`  
      - `top_transaction`, `top_user`, `top_insurance`  
 
-   Update connection string in `improved-phonepe-layout.py` if needed:  
+   Update connection string in `Main_Streamlit.py` if needed:  
    ```python
    engine = create_engine("mysql+mysqlconnector://root:12345@localhost:3306/Project_1")
    ```
 
 4. **Run the Streamlit App**  
    ```bash
-   streamlit run improved-phonepe-layout.py
+   streamlit run Main_Streamlit.py
    ```
 
 5. Open your browser at `http://localhost:8501`
